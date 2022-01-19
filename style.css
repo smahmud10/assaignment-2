@@ -60,12 +60,16 @@ ul li a {
 h1 {
     font-size: 52px;
     font-weight: 700px;
+    line-height: 70px;
 }
 .button{background-color: aquamarine;
 height: 44px;
 width: 196px;
 border-radius: 41px;
 border-style: hidden;}
+.fas fa-long-arrow-alt-right {
+    margin-left: 10px;
+}
 .banner-right {
     height: 414px;
     width: 440px;
