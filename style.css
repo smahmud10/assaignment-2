@@ -4,13 +4,15 @@ body {
     margin: 0 auto;
 }
 /* Header */
-.header{display: flex;
-justify-content: space-between;}
+
+
 /* nave */
+nav{display: flex;
+justify-content: space-between;}
 /* Navigation */
 .navigation{list-style: none;
     display: flex;
     padding: 5px;
 }
-
+ul li{margin: 10px;}
  ul li a{text-decoration: none;}
