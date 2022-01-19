@@ -45,8 +45,9 @@ ul li a {
 /* Banner */
 
 .banner {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 133px;
     margin-top: 145px;
 }
 
@@ -62,16 +63,41 @@ h1 {
     font-weight: 700px;
     line-height: 70px;
 }
-.button{background-color: aquamarine;
-height: 44px;
-width: 196px;
-border-radius: 41px;
-border-style: hidden;}
-.fas fa-long-arrow-alt-right {
+
+.button {
+    background-color: aquamarine;
+    height: 44px;
+    width: 196px;
+    border-radius: 41px;
+    border-style: hidden;
+}
+
+.fas {
     margin-left: 10px;
 }
+
 .banner-right {
     height: 414px;
     width: 440px;
-    margin-right: 165px;
+
 }
+
+/* logos */
+
+.logos {
+    width: 1110;
+    height: 110px;
+}
+
+.logo {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul li {
+    margin-left: 10px;
+}
+
+
