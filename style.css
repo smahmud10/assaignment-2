@@ -1,15 +1,25 @@
 /* Body */
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0 auto;
+    
 }
+/* Container */
+.container{max-width: 1200px;
+margin: 0 auto;
+padding: 0 30px;}
 /* Header */
-
+.header{margin-top: 90px;
+margin-left: 120px;}
 
 /* nave */
+
 nav{display: flex;
-justify-content: space-between;}
+justify-content: space-between;
+height: 80px;
+text-align: center;}
+
 /* Navigation */
+
 .navigation{list-style: none;
     display: flex;
     padding: 5px;
