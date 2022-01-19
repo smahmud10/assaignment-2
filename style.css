@@ -1,4 +1,16 @@
 /* Body */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
 }
+/* Header */
+.header{display: flex;
+justify-content: space-between;}
+/* nave */
+/* Navigation */
+.navigation{list-style: none;
+    display: flex;
+    padding: 5px;
+}
+
+ ul li a{text-decoration: none;}
