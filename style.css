@@ -61,8 +61,13 @@ h1 {
     font-size: 52px;
     font-weight: 700px;
 }
-
+.button{background-color: aquamarine;
+height: 44px;
+width: 196px;
+border-radius: 41px;
+border-style: hidden;}
 .banner-right {
     height: 414px;
     width: 440px;
+    margin-right: 165px;
 }
