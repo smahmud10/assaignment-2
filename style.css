@@ -149,22 +149,24 @@ ul li {
 color: deepskyblue; text-align: right;}
 /* footer */
 .footer {
-    background-color: lightblue;
+    background-color:royalblue;
     text-align: center;
+    color: mintcream;
   
 }
 
-  .footer-division 
-  }
-   
+  
 
 .footer h3 {
     font-size: 24px;
     line-height: 25px;
+    
 }
 .footer p {
     font-size: 14px;
     line-height: 24px;
 }
 
+  
+}
  
