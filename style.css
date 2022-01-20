@@ -6,11 +6,10 @@ body {
 }
 
 /* Container */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 30px;
-}
+
+.container{max-width: 1200px;
+margin: 0 auto;
+padding: 0 30px;}
 
 /* Header */
 .header {
@@ -100,10 +99,27 @@ h1 {
 ul li {
     margin-left: 10px;
 }
-.product-title{justify-content: center;}
-.products {
+
+/* Products */
+
+}
+.product-title {
+    justify-content: center;
+}
+
+.products { display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 329px;
     height: 476px;
 }
-.fa-star.filled{color: cornflowerblue;}
-.fa-star-half-alt{color: cornflowerblue;}
+
+}
+.fa-star.filled {
+    color: cornflowerblue;
+    font-size: 12px;
+}
+
+.fa-star-half-alt {
+    color: cornflowerblue;
+    font-size: 12px;
+}
