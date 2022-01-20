@@ -1,7 +1,7 @@
 /* Body */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #AAAAAA;
+
 
 }
 
@@ -100,5 +100,10 @@ h1 {
 ul li {
     margin-left: 10px;
 }
-
-
+.product-title{justify-content: center;}
+.products {
+    width: 329px;
+    height: 476px;
+}
+.fa-star.filled{color: cornflowerblue;}
+.fa-star-half-alt{color: cornflowerblue;}
