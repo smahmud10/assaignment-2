@@ -1,9 +1,6 @@
 /* Body */
 body {
     font-family: 'Poppins', sans-serif;
-   
-
-
 
 }
 
@@ -13,17 +10,17 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
-     display: flex;
-     justify-content: space-between;
-     height: 80px;
-     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    text-align: center;
 }
 
 /* Header */
 .header {
     margin-top: 90px;
     margin-left: 120p;
-    
+
 }
 
 
@@ -103,28 +100,35 @@ ul li {
 
 /* Products */
 
- .container{margin-top: 100px;
+.main-product {
+    margin-top: 100px;
 }
+
 .product-title {
-   margin-left: 588px;
-   margin-bottom: 30px;
+    margin-left: 588px;
+    margin-bottom: 30px;
 }
 
 .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:30px;
+    grid-gap: 30px;
     margin-left: 196px;
-    
+
 
 }
-.pruduct-banner img{border-radius: 5px;}
-.product-1 {
-   width: 329px;
-   height: 550px;
-  justify-content: center;
-  
+
+.pruduct-banner img {
+    border-radius: 5px;
 }
+
+.product-1 {
+    width: 329px;
+    height: 550px;
+    justify-content: center;
+
+}
+
 .product-detail {
     font-family: Inter;
     font-style: normal;
@@ -142,32 +146,53 @@ ul li {
     color: cornflowerblue;
     font-size: 12px;
 }
-.see-more{margin-right:5px;
-color: deepskyblue; text-align: right;}
-/* footer */
-.footer {
-    background-color:royalblue;
-    text-align: center;
-    color: mintcream;
-  
+
+.see-more {
+    margin-right: 5px;
+    color: deepskyblue;
+    text-align: right;
 }
 
-  
+/* footer */
+.footer {
+    background-color: royalblue;
+    text-align: center;
+    color: mintcream;
+
+}
+
+
 
 .footer h3 {
     font-size: 24px;
     line-height: 25px;
-    
+
 }
+
 .footer p {
     font-size: 14px;
     line-height: 24px;
 }
 
-  
 
+
+
+@media only screen and (max-width:480px) {
+    .container {
+        width: 100%;
+    }
+
+ section{width: 100%;}
+    .banner {
+       
+        grid-template-columns: repeat(1, 1fr);
+        gap: 100px;
+    }
     
-@media omly screen and (max-width:480px) {.container{width: 100%;
+.logo {
+    display: none;
 }
-    
+.products{width: 100%;
+    grid-template-columns: 1fr;}
+
 }
