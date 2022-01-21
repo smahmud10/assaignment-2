@@ -13,22 +13,19 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
+     display: flex;
+     justify-content: space-between;
+     height: 80px;
+     text-align: center;
 }
 
 /* Header */
 .header {
     margin-top: 90px;
     margin-left: 120p;
+    
 }
 
-/* nave */
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    text-align: center;
-}
 
 /* Navigation */
 
@@ -168,5 +165,9 @@ color: deepskyblue; text-align: right;}
 }
 
   
+
+    
+@media omly screen and (max-width:480px) {.container{width: 100%;
 }
- 
+    
+}
